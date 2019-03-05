@@ -107,12 +107,13 @@
     <artifactId>simple-java-mail</artifactId>
     <version>4.1.2</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/org.springframework/spring-context-support -->
-<dependency>
-    <groupId>org.springframework</groupId>
-    <artifactId>spring-context-support</artifactId>
-    <version>3.2.0.RELEASE</version>
-</dependency>
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-context-support --> 
+  <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+            <version>3.0.5.RELEASE</version>
+        </dependency>
+
 
 
 
