@@ -36,6 +36,7 @@ public class User {
 	
     private LocalDate registeredDate;
     private LocalDate modifiedDate;
+    private boolean isVerification;
 
 	public LocalDate getModifiedDate() {
 		return modifiedDate;
@@ -100,5 +101,15 @@ public class User {
 	public void setRegisteredDate(LocalDate registeredDate) {
 		this.registeredDate = registeredDate;
 	}
+
+	public boolean isVerification() {
+		return isVerification;
+	}
+
+	public void setVerification(boolean isVerification) {
+		this.isVerification = isVerification;
+	}
+
+	
     
 }

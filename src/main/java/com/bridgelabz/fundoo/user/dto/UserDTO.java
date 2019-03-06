@@ -2,7 +2,7 @@ package com.bridgelabz.fundoo.user.dto;
 
 public class UserDTO {
 
-	
+	private String firstName;
 	private String lastName;
 	private String email;
 	private String mobileNumber;
@@ -52,7 +52,7 @@ public class UserDTO {
 				+ mobileNumber + ", password=" + password + "]";
 	}
 
-	private String firstName;
+	
 	
 	
 	
